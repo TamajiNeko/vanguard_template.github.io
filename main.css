@@ -15,6 +15,7 @@ html, body {
     background-color: rgb(0,0,0);
     position: fixed;
     z-index: 99;
+    backdrop-filter: blur(10rem);
 }
 
 .nav-bar-menu {
@@ -25,6 +26,7 @@ html, body {
     align-items: center;
     justify-content: center;
     transition: 1s;
+
 }
 
 .logo {
@@ -72,6 +74,7 @@ html, body {
     transform: skewX(20deg);
     opacity: .9;
     transition: .4s;
+    backdrop-filter: blur(10rem);
 }
 
 .download-text {
