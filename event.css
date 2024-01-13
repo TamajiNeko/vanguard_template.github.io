@@ -1,0 +1,10 @@
+.nav-bar-menu span:hover {
+    color: rgb(255,0,0);
+    transition: .4s;
+}
+
+.download-btn:hover {
+    scale: 1.1;
+    background-color: rgb(184, 0, 0);
+    transition: .4s;
+}
