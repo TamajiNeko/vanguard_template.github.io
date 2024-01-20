@@ -1,4 +1,4 @@
-.nav-bar-menu span:hover {
+.nav-bar-menu a:hover {
     color: rgb(255,0,0);
     transition: .4s;
 }

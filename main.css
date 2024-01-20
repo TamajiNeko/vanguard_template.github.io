@@ -7,6 +7,10 @@ html, body {
     -ms-user-select: none; 
     user-select: none; 
 }
+a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
 
 .menu {
     width: 100%;
@@ -20,7 +24,6 @@ html, body {
 
 .nav-bar-menu {
     height: 100%;
-    color: rgb(255,255,255);
     font-size: 1.3rem;
     display: flex;
     align-items: center;
@@ -39,12 +42,12 @@ html, body {
     padding: 0 20px;
 }
 
-.slid-container {
+.main-container {
     width: 100%;
     height: 746px;
     overflow: hidden;
 }
-.slid-image {
+.main-image {
     transform: translate3d(-50%, 0, 0);
     margin-left: 50%;
 }
